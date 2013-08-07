@@ -1,3 +1,12 @@
+---
+layout: post
+category : lessons
+tagline: 
+tags : [MarkDown]
+---
+{% include JB/setup %
+
+
 Markdown 文件
 ==================
 
