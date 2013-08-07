@@ -6,11 +6,11 @@ tags : [KVM, 虚拟化, Linux, RedHat ]
 ---
 {% include JB/setup %}
 
-#RHEL安装KVM；
+#RHEL5安装KVM；
+###以RHEL5.5为例：
 1，放入RHEL5.5的安装光盘
 
-2，挂载安装光盘到/mnt/ ，命令
-    mount -o loop /dev/cdrom /mnt
+2，挂载安装光盘到/mnt/ ，命令`mount -o loop /dev/cdrom /mnt`
 
 3，修改yum源配置文件 /etc/yum.repos.d/rhel-debuginfo.repo:
 
@@ -102,7 +102,7 @@ tags : [KVM, 虚拟化, Linux, RedHat ]
     # service libvirtd start
 
 12，使用管理工具进行虚拟机安装
-命令行管理工具 virsh
+命令行管理工具 `virsh`
 或
-图形化管理工具 virt-manager
+图形化管理工具 `virt-manager`
 
