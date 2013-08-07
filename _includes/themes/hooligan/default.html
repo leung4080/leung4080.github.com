@@ -94,8 +94,8 @@
               {% endif %}                    
               {% if site.author.feedburner %}
                 <li>
-                  <a href="{{ ASSET_PATH }}/rss.xml" class="zocial rss icon" target="_blank">
-                    <span class="hidden-desktop">FeedBurner</span>
+                  <a href="{{ site.production_url }}{{ site.rss_path }}" class="zocial rss icon" target="_blank">
+                    <span class="hidden-desktop">RSS</span>
                   </a>
                 </li>
               {% endif %}
