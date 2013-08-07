@@ -91,7 +91,7 @@ tags : [ssl, ssh, Linux, RedHat ]
 
 配置，编译并安装
 
-#由于openssh配置时会使用旧版本的openssl库文件，需要先配置以下三个变量，让其指向新版本的opnessl库文件：
+###由于openssh配置时会使用旧版本的openssl库文件，需要先配置以下三个变量，让其指向新版本的opnessl库文件：
 
     [root@csqtest openssh-5.5p1]# DEFAULT_LIBPATH=/usr/local/ssl/include/openssl:/usr/local/ssl/lib64/
     [root@csqtest openssh-5.5p1]# LIBPATH=${LIBPATH:=$DEFAULT_LIBPATH} 
@@ -110,7 +110,7 @@ tags : [ssl, ssh, Linux, RedHat ]
 
 ps:如果是32位的系统可能位置有所不同:/usr/local/ssl/lib/
 
-#配置时需要注意-with-ssl-dir需要使用当前SSL的安装路径/usr/local/ssl
+##配置时需要注意-with-ssl-dir需要使用当前SSL的安装路径/usr/local/ssl
 
     [root@csqtest openssh-5.5p1]# ./configure -prefix=/usr -sysconfdir=/etc/ssh -with-ssl-dir=/usr/local/ssl -with-zlib -with-pam -with-md5-passwords -with-kerberos5 --without-zlib-version-check
 
