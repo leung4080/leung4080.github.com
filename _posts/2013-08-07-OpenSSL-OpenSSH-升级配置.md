@@ -8,7 +8,7 @@ tags : [ssl, ssh, Linux, RedHat ]
 
 ###OpenSSL&OpenSSH 升级配置
 
-版权所有，学习使用，拒绝商用。
+*版权所有，学习使用，拒绝商用。*
 
 ##查看系统ssl、ssh当前版本
 
