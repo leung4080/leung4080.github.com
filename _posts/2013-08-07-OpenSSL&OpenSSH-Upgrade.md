@@ -1,7 +1,7 @@
 ---
 layout: post
 category : lessons
-tagline:  "Supporting tagline"
+tagline:  
 tags : [ssl, ssh, Linux, RedHat ]
 ---
 {% include JB/setup %}
