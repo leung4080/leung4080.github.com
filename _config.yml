@@ -16,7 +16,7 @@ author :
   email : Leung4080@gmail.com
   github : leung4080
   googleplus : leung4080
-  feedburner : rss.xml
+  feedburner : atom.xml
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
