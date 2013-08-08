@@ -10,7 +10,7 @@ pygments: true
 # so be sure to set them if your theme uses them.
 #
 title : Leung's Blog
-SiteDescription: `Just Linux ...`
+SiteDescription: Just Linux ...
 tagline: Site Tagline
 author : 
   name : Leung
