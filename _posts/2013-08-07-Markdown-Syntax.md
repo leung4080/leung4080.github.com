@@ -17,5 +17,5 @@ Markdown 语法
 - 繁體中文說明檔案，請查看这里[Markdown: Syntax][zhTW-doc].
 - 简体中文说明文档，请查看这里[Markdown: Syntax][zhCN-doc].
 [eng-doc]:http://daringfireball.net/projects/markdown/syntax
-[zhCN-doc]: https://github.com/riku/Markdown-Syntax-CN
+[zhCN-doc]: http://wowubuntu.com/markdown/
 [zhTW-doc]: http://markdown.tw/
