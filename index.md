@@ -1,12 +1,11 @@
 ---
 layout: page
-title:  Leung's Blog 
+title:  本站简介 
 tagline: 
 ---
 {% include JB/setup %}
 
-本站简介
-===
+
 本站用于分享一下个人的Linux学习经验，有趣实用的软件等。
 
 
