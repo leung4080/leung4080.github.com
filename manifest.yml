@@ -1,10 +1,9 @@
 ---
-name : "hooligan"
-website :  "https://github.com/dhulihan/hooligan"
-git_url : "https://github.com/dhulihan/hooligan.git"
-source_url : "https://github.com/dhulihan/hooligan"
-description :  "A low-lit fully responsive theme for Jekyll + Jekyll-Bootstrap."
+name : the-minimum
+website : http://studiomohawk.github.com/jekyll-bootstrap/
+git_url : git://github.com/jekyllbootstrap/theme-the-minimum.git
+source_url : https://github.com/jekyllbootstrap/theme-the-minimum
 author:
-  name : "Dave Hulihan"
-  email : "dhulihan@gmail.com"
-  website : "http://www.hulihanapplications.com/"
+  name : Yuya Saito
+  email : cssradar@gmail.com
+  website : http://css.studiomohawk.com/
