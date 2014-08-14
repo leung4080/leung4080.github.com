@@ -2,7 +2,7 @@
 layout: post
 title: IBM x3650 M4服务器安装Red Hat Enterprise Linux问题
 description: x3650m4安装RedHat5.5
-category : lessons
+category : Linux
 date: 2013-08-12 21:35:30 +08:00
 tags: "Linux"
 

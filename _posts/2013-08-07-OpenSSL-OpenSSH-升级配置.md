@@ -1,6 +1,6 @@
 ---
 layout: post
-category : lessons
+category : Linux
 tagline:  
 tags : [ssl, ssh, Linux, RedHat ]
 ---

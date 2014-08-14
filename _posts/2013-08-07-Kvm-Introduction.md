@@ -1,6 +1,6 @@
 ---
 layout: post
-category : lessons
+category : Linux
 tagline: "Supporting tagline"
 tags : [KVM, 虚拟化, Linux, RedHat ]
 ---
