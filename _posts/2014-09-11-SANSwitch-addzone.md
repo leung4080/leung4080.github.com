@@ -28,7 +28,7 @@ tags: [SAN, Storage]
 >使用串口线（RJ232/DB9）连接到光纤交换机串口
 
 使用SecureCRT等终端工具登陆：
-![image1](_image/2014/SAN_Seril-com_info.jpg "SecureCRT Com口参数")
+![image1]({{site.img_path}}/2014/SAN_Seril-com_info.jpg "SecureCRT Com口参数")
 
 登陆默认用户名：admin
 默认密码：admin
@@ -199,6 +199,7 @@ tags: [SAN, Storage]
      zone:  M5000_to_ST6140_0
                     1,13
                     1,4
+
 <h3 id="p3">3. 添加ZONE</h3>
 >1，为新增的端口设置别名,
 添加新的端口到别名HP_2000,对应的端口为1,16和1,20这两个端口
@@ -305,6 +306,7 @@ tags: [SAN, Storage]
      zone:  M5000_to_ST6140_0
                     1,13
                     1,4
+
 <h3 id="p4">4. 更新配置</h3>
 > 修改配置后，需要更新配置，使其生效
 > 使用命令:cfgenable
