@@ -18,13 +18,13 @@
     <hr>
     <div class="pagination btn-group">
       {% if page.previous %}
-        <a class="btn prev" href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a>
+        <a class="btn prev" href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; 上一篇</a>
       {% else %}
-        <a class="btn disabled prev">&larr; 上一篇目</a>
+        <a class="btn disabled prev">&larr; 上一篇</a>
       {% endif %}
         <a class="btn" href="{{ BASE_PATH }}{{ site.JB.archive_path }}">文章列表</a>
       {% if page.next %}
-        <a class="btn next" href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next &rarr;</a>
+        <a class="btn next" href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">下一篇 &rarr;</a>
       {% else %}
         <a class="btn next disabled">下一篇 &rarr;</a>
       {% endif %}
