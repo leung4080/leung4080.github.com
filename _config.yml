@@ -76,7 +76,7 @@ JB :
   tags_path : /tags.html
   atom_path : /atom.xml
   rss_path : /rss.xml
-  img_path : /assets/images
+  img_path : http://leung4080.github.io/assets/images/
 
   # Settings for comments helper
   # Set 'provider' to the comment provider you want to use.
