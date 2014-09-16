@@ -1,15 +1,16 @@
 ---
 layout: post
 title: RHEL multipath配置操作记录
-description:linux系统连接SAN存储，多路径配置
 category : Linux
+description:linux系统连接SAN存储，多路径配置
+tagline:  
 date: 2014/9/16 11:18:04 
-tags: [SAN, Linux, RedHat,multipath]
-
+tags : [SAN, Linux, RedHat, multipath]
 ---
+{% include JB/setup %}
 
-RHEL multipath配置操作记录
-========
+###RHEL multipath配置操作记录###
+
 
 ***
 操作步骤如下：
@@ -430,5 +431,3 @@ RHEL multipath配置操作记录
 	
 重启后查看检查mulitpath设备及wwid是否对应，df查看文件系统/data01是否正常挂载
  
-
-
