@@ -1,11 +1,10 @@
 ---
 layout: post
 title: RHEL multipath配置操作记录
+description:linux系统连接SAN存储，多路径配置
 category : Linux
 date: September 15 2014 9:20 AM
-description:linux系统连接SAN存储，多路径配置
-tagline:  
-tags : [SAN, Linux, RedHat,multipath ]
+tags: [SAN, Linux, RedHat,multipath ]
 ---
 {% include JB/setup %}
 
@@ -18,8 +17,8 @@ RHEL multipath配置操作记录
 *	[1. 描述](#p1)
 *	[2. 规划](#p2)
 *	[3. 配置操作记录](#p3)
-*		[3.1 配置多路径](#p3d1)
-*		[3.2 创建lv及文件系统](#p3d2)
+    *	[3.1 配置多路径](#p3d1)
+	*	[3.2 创建lv及文件系统](#p3d2)
 
 * * *
 
