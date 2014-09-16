@@ -25,10 +25,14 @@ RHEL multipath配置操作记录
  
 <h2 id="p1">描述</h2>
 
-新增4台服务器,主机名分别为san_host1、san_host2、san_host3、san_host4，每台机器已划分有独立的存储（3T/3T/3T/5T）目前已经接好HBA卡并正确识别硬件多路径，需要按以下方式挂载文件系统
+新增4台服务器,主机名分别为san_host1、san_host2、san_host3、san_host4，每台机器已划分有独立的存储（3T/3T/3T/5T）目前已经接好HBA卡并正确识别硬件多路径，需要按以下方式挂载文件系统:
+
 1、san_host1 单独挂3T文件系统,文件系统目录名称/data01;
+
 2、san_host2 单独挂3T文件系统,文件系统目录名称/data01;
+
 3、san_host3 单独挂3T文件系统,文件系统目录名称/data01;
+
 4、san_host4 划分4T空间用于数据库裸设备，另外1T空间建立文件系统挂载目录为/data01。
  
 <h2 id="p2">规划</h2>
@@ -396,7 +400,7 @@ RHEL multipath配置操作记录
 重启后查看检查mulitpath设备及wwid是否对应，df查看文件系统/data01是否正常挂载
 	
 	
-####在san_host4执行如下操作：###3
+####在san_host4执行如下操作：####
 	
 	pvcreate /dev/mapper/mpatha 
 	
