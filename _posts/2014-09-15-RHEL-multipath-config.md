@@ -1,11 +1,11 @@
 ---
 layout: post
-title: RHEL multipath配置操作记录
 category : Linux
+title: RHEL multipath配置操作记录
 description:linux系统连接SAN存储，多路径配置
 tagline:  
 date: 2014/9/16 11:18:04 
-tags : [SAN, Linux, RedHat, multipath]
+tags: [SAN, Linux, RedHat, multipath]
 ---
 {% include JB/setup %}
 
