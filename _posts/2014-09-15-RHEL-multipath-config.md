@@ -9,13 +9,6 @@ tags: [SAN, Linux, RedHat,multipath]
 ---
 {% include JB/setup %}
 
----
-layout: post
-category : lessons
-tagline: "Supporting tagline"
-tags : [MarkDown]
----
-{% include JB/setup %}
 
 
 RHEL multipath配置操作记录
