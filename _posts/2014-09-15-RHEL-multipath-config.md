@@ -7,9 +7,6 @@ date: 2014/9/16 11:18:04
 tags: [SAN, Linux, RedHat,multipath]
 
 ---
-{% include JB/setup %}
-
-
 
 RHEL multipath配置操作记录
 ========
