@@ -28,7 +28,7 @@ tags: [SAN, Storage]
 >使用串口线（RJ232/DB9）连接到光纤交换机串口
 
 使用SecureCRT等终端工具登陆：
-![image1]({{ site.img_path }}/2014/SAN_Seril-com_info.jpg "SecureCRT Com口参数")
+![image1](http://leung4080.github.io/assets/images/2014/SAN_Seril-com_info.jpg "SecureCRT Com口参数")
 
 登陆默认用户名：admin
 默认密码：admin
