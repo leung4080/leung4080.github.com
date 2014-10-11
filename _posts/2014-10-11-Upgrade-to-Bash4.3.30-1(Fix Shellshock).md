@@ -1,14 +1,15 @@
 ---
 layout: post
 category : Linux
-title:源代码升级bash 4.3.30(1) （修复ShellShock漏洞）
+title:升级bash 4.3.30(1) （修复ShellShock漏洞）
+description:使用源代码升级bash 4.3.30，修复ShellShock漏洞。
 tagline:  
 date: 2014/10/11 9:38:01  
 tags : [bash, shellshock, Linux, RedHat ]
 ---
 {% include JB/setup %}
 
-###源代码升级bash 4.3.30(1) （修复ShellShock漏洞）###
+###升级bash 4.3.30(1) （修复ShellShock漏洞）###
 
 ---------
 ***
@@ -57,6 +58,7 @@ bash版本： 3.00.15(1)
     bash: BASH_FUNC_x(): line 0: `BASH_FUNC_x() () { :;}; echo vulnerable'
     bash: error importing function definition for `BASH_FUNC_x'
     test
+
 测试方法2：
 执行命令：cd /tmp; rm -f /tmp/echo; env 'x=() { (a)=>\' bash -c "echo date"; cat /tmp/echo
 
