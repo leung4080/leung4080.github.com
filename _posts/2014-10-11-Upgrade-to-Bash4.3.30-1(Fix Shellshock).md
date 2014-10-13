@@ -1,11 +1,11 @@
 ---
 layout: post
 category : Linux
-title:升级bash 4.3.30(1) （修复ShellShock漏洞）
-description:使用源代码升级bash 4.3.30，修复ShellShock漏洞。
+title: 升级bash 4.3.30(1) （修复ShellShock漏洞）
+description: 使用源代码升级bash 4.3.30，修复ShellShock漏洞。
 tagline:  
 date: 2014/10/11 9:38:01  
-tags : [bash, shellshock, Linux, RedHat ]
+tags: [bash, shellshock, Linux, RedHat ]
 ---
 {% include JB/setup %}
 
